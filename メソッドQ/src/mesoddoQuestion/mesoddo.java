@@ -81,15 +81,15 @@ public class mesoddo {
 		return ave;
 	}
 	// Q7：引数にQ6で作成したメソッドの返り値を受け取り、受け取った値が50以上ならばtrueそれ以外はfalseを返しコンソールに出力してください
-	public static double[] test5(double[] count) {
-		//新しい配列に値を格納する式を作成
-		double y[] = count;
-		//配列の長さを確認する式を作成
-		int v = y.length;
+	public static void test5(double count) {
+//		//新しい配列に値を格納する式を作成
+//		double y[] = count;
+//		//配列の長さを確認する式を作成
+//		int v = y.length;
 		//配列の要素数まで繰り返す式を作成
-		for(int i=0;i < v; i++) {
+		
 			//繰り返し回数を定義する式を作成
-			double x = count[i];
+			double x = count;
 			//値が50以上の場合の条件式を作成
 			if(x >=50) {
 				//値が50以上の場合の表示文を作成
@@ -99,9 +99,6 @@ public class mesoddo {
 				//それ以外の場合に表示される表示文を作成
 				System.out.println("false");
 			}
-		}
-		//返り値を返す式を作成
-		return count;
 	}
 	public static void main(String[] args) {
 		// 作成したメソッドをここで呼び出してください
@@ -116,10 +113,9 @@ public class mesoddo {
 		//test2に挿入する値を定義
 		test2(9, 3);
 		//test4に挿入する値を定義
-		test4(6);
-		//testに挿入する値を定義
-		test(test4(6));
+		double [] result4 = test4(6);
 		//test5に挿入する値を定義
-		test5(test4(6));
+		double avele = test(result4);
+		test5(avele);
 	}
 };
