@@ -82,12 +82,6 @@ public class mesoddo {
 	}
 	// Q7：引数にQ6で作成したメソッドの返り値を受け取り、受け取った値が50以上ならばtrueそれ以外はfalseを返しコンソールに出力してください
 	public static void test5(double count) {
-//		//新しい配列に値を格納する式を作成
-//		double y[] = count;
-//		//配列の長さを確認する式を作成
-//		int v = y.length;
-		//配列の要素数まで繰り返す式を作成
-		
 			//繰り返し回数を定義する式を作成
 			double x = count;
 			//値が50以上の場合の条件式を作成
