@@ -110,6 +110,7 @@ public class mesoddo {
 		double [] result4 = test4(6);
 		//test5に挿入する値を定義
 		double avele = test(result4);
+		//aveleをメソッドに適用
 		test5(avele);
 	}
 };
