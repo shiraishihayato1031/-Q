@@ -36,7 +36,7 @@ public class Person {
 	 }
 	 
 	 public void buy(Car car) {
-		 car.SetOwner(this.fullName());
+		 car.setOwner(this.fullName());
 		 System.out.println(car.getOwner()+"が購入しました。");
 	 }
 	 

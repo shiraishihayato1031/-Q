@@ -1,13 +1,5 @@
 package vehicle1;
 
-public class Bicycle {
-	private String owner;
+public class Bicycle extends Vehicle{
 
-	public void setOwner(String owner) {
-		this.owner = owner;
-	}
-	
-	public String getOwner(){
-		return owner;
-	}
 }
